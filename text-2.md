@@ -31,6 +31,7 @@ Das Team bereitet Version 1.0 für die Veröffentlichung am Freitag vor.
 ```bash
 git switch main
 git pull
+```
 
 ### 2. Arbeitsbranch erstellen
 
