@@ -31,3 +31,24 @@ Das Team bereitet Version 1.0 für die Veröffentlichung am Freitag vor.
 ```bash
 git switch main
 git pull
+### 2. Arbeitsbranch erstellen
+
+```bash
+git switch -c release-check
+```
+
+### 3. Änderungen prüfen und speichern
+
+```bash
+git status
+git add .
+git commit -m "Prepare release"
+```
+
+> **Hinweis:** Direkte Änderungen auf `main` vermeiden. Für jede Aufgabe wird ein eigener Branch verwendet.
+
+---
+
+## Dokumentation
+
+* [GitHub Flow](https://docs.github.com)
